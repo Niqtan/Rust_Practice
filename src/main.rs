@@ -52,7 +52,13 @@ fn main() {
 fn retrieve(department: &Departments) {
     let employee_hashmap = HashMap::<&str, Departments>::new();
     
-    let new_department = employee_hashmap.entry(department)
+    //The department as a key should be the name of the
+    //employee
+
+    //How should I make the value the department of the 
+    //employee?
+    let new_department = employee_hashmap.insert;
+    //Use insert here for 
     for (key, value) in &employee_hashmap {
     println!("{} is in {}", key, value);
     }
@@ -79,6 +85,7 @@ fn add_and_save(num: u32) -> Departments {
         3 => departments.add_to_department("Accounting", employee),       
         _ => ()
     };
+    // Add the instances of the department and the employee
 
     departments
 
