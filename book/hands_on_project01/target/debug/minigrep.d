@@ -1,0 +1,1 @@
+C:\Users\SHARKY\Documents\Rust\RustyBeginners\minigrep\target\debug\minigrep.exe: C:\Users\SHARKY\Documents\Rust\RustyBeginners\minigrep\src\lib.rs C:\Users\SHARKY\Documents\Rust\RustyBeginners\minigrep\src\main.rs
